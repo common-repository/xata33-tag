@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#loadingBar, #message
+{
+    background-color: #A00000;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 5px;
+    float: right;
+}
+
+#message p
+{
+    padding: 0px;
+    margin: 0px;	
+}
+
+.size_list_item, .color_list_item, .tag_list_item
+{
+    border: solid 1px #CCCCCC;
+    padding: 5px;
+}
+
+.size_list_item span, .color_list_item span, .tag_list_item span
+{
+    float: left;
+}
+
+.size_list_item .rm_item, .color_list_item .rm_item, .tag_list_item .rm_item
+{
+    float: right;
+}
+
+.selected_node
+{
+    border: solid 2px #FF0000;
+}
+
+.x33_tag_table td
+{
+    vertical-align: top;
+    padding: 10px;
+}
